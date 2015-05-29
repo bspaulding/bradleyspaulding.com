@@ -1,0 +1,1 @@
+# bradleyspaulding.com

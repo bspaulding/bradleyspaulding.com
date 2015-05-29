@@ -1,0 +1,90 @@
+html{
+  margin: 0px; padding; 0px;
+}
+body {
+  margin: 0px; padding; 0px;
+  background: url('../images/twill-tweed-bw.jpg');
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+body, a:link, a:visited, a:hover, a:active {
+  color: #EFEFEF;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+a:hover {
+  color: gold;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.6;
+  display: inline-block;
+}
+.overlay>h1 {
+  opacity: 1;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 16px;
+  text-align: center;
+  top: 50%;
+  position: relative;
+  -webkit-transform: translateY(-75%);
+  -ms-transform: translateY(-75%);
+  transform: translateY(-75%);
+  cursor: default;
+  font-size: 44px;
+}
+.overlay>h1>span {
+  font-weight: 700;
+  letter-spacing: 4px;
+  position: relative;
+  left: -4px;
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  top: 50%;
+  left: 4px;
+  -webkit-transform: translateY(-110px);
+  -ms-transform: translateY(-110px);
+  transform: translateY(-110px);
+
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+ul li:after {
+  content: "//";
+  margin-left: 6px;
+  margin-right: 6px;
+}
+ul li:last-child:after {
+  content: "";
+}
+.overlay>h1,
+ul li {
+  text-shadow: #000 0px -1px 0px;
+}
+
