@@ -3,7 +3,10 @@ html{
 }
 body {
   margin: 0px; padding; 0px;
-  background: url('../images/twill-tweed-bw.jpg');
+  background: url('../images/desktop-unsplash.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
 }
