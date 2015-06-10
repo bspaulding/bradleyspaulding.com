@@ -12,17 +12,17 @@ body {
 
 @media (max-width: 480px) {
   body {
-    background-image: url('../images/desktop-unsplash-480w.png');
+    background-image: url('../images/desktop-unsplash-480w.jpg');
   }
 }
 @media (max-width: 960px) {
   body {
-    background-image: url('../images/desktop-unsplash-960w.png');
+    background-image: url('../images/desktop-unsplash-960w.jpg');
   }
 }
 @media (min-width: 960px) {
   body {
-    background-image: url('../images/desktop-unsplash-1920w.png');
+    background-image: url('../images/desktop-unsplash-1920w.jpg');
   }
 }
 
