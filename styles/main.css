@@ -1,31 +1,27 @@
-@media (min-width: 960px) {
-  body {
-    background: url('../images/desktop-unsplash-1920w.png');
-  }
-}
-
-@media (min-width: 480px, max-width: 960px) {
-  body {
-    background: url('../images/desktop-unsplash-960w.png');
-  }
-}
-@media (max-width: 480px) {
-  body {
-    background: url('../images/desktop-unsplash-480w.png');
-  }
-}
-
 html {
   margin: 0px; padding; 0px;
 }
 body {
   margin: 0px; padding; 0px;
+  background-image: url('../images/desktop-unsplash-480w.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
 }
+@media (min-width: 480px) {
+  body {
+    background-image: url('../images/desktop-unsplash-960w.png');
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    background-image: url('../images/desktop-unsplash-1920w.png');
+  }
+}
+
 body, a:link, a:visited, a:hover, a:active {
   color: #EFEFEF;
 }
